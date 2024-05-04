@@ -1,0 +1,54 @@
+body {
+    background-color: rgba(252, 252, 241, 0.823);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bot-card {
+    background-color: rgba(198, 227, 237, 0.52);
+    margin: 0 auto;
+    padding: 30px;
+    width: 50%;
+    box-shadow: 0px 0px 10px 0px;
+    text-align: center;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bot-card h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.bot-card h1, .bot-card h3 {
+    color: #333;
+}
+
+.bot-card img {
+    width: 100px;
+    height: 100px;
+}
+
+.bot-card ul {
+    list-style-type: circle;
+    padding: 0;
+}
+
+.bot-card li {
+
+    margin-bottom: 10px;
+}
+
+.bot-card a {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.bot-card button{
+    margin: 10px;
+    padding:10px;
+    border-radius: 25px;
+    box-shadow: 0px 2px 20px -5px #0000005e;
+}
