@@ -33,7 +33,7 @@ body {
 .bot-card ul {
     list-style-type: none;
     padding: 0;
-    text-align: right; /* Вирівнювання тексту по правому краю */
+    text-align: left;
 }
 
 .bot-card li {
